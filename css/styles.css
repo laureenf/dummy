@@ -1,0 +1,40 @@
+body, html {
+    background-image: url('../images/books1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+}
+.main-content {
+    height: 80%;
+}
+button.btn {
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0.5px burlywood;
+    display: block;
+    text-transform: uppercase;
+    margin: auto; 
+    position: relative;
+    /*height: 7vw;
+    width: 25vw;
+    font-size: 2vw; */
+    padding: 20px;
+    font-weight: bold;
+    /* white-space:normal !important; */
+    /* word-wrap: break-word; */
+}
+
+#login_librarian {
+    top: 25%;
+}
+h2 {
+    text-transform: uppercase;
+    text-shadow: 0 0 10px rgb(83, 50, 9);
+    color: wheat;
+    text-align: center;
+    position: relative;
+    top: 35%;
+}
+#login_admin {
+    top: 45%;
+}
